@@ -1,18 +1,19 @@
 {
     "manifest_version": 2,
 
-    "name": "Track My PIU 2",
-    "description": "Tracks user PIU (Personally Identifiable User Information)",
+    "name": "Eagle",
+    "description": "Eagle logs and prompts deletion of websites/web services that the user subscribes to.",
     "version": "0.1.0.6",
 
     "icons": {
-        "16": "image/128.png",
-        "48": "image/128.png",
-        "128": "image/128.png"
+        "16": "image/icon-small-transparent.png",
+        "48": "image/icon-small-transparent.png",
+        "128": "image/icon-small-transparent.png"
     },
 
     "browser_action": {
-        "default_icon": "image/128.png"
+        "default_icon": "image/icon-small-transparent-cropped.png"
+
     },
 
     "content_scripts": [{
@@ -28,7 +29,6 @@
         "tabs",
         "storage",
         "activeTab",
-        "https://ajax.googleapis.com/",
-        "https://php-hollaholl.herokuapp.com/"
+        "https://ajax.googleapis.com/"
     ]
 }
