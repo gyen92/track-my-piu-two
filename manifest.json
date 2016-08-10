@@ -6,13 +6,13 @@
     "version": "0.1.0.6",
 
     "icons": {
-        "16": "image/onyx.png",
-        "48": "image/onyx.png",
-        "128": "image/onyx.png"
+        "16": "image/128.png",
+        "48": "image/128.png",
+        "128": "image/128.png"
     },
 
     "browser_action": {
-        "default_icon": "image/onyx.png"
+        "default_icon": "image/128.png"
     },
 
     "content_scripts": [{
